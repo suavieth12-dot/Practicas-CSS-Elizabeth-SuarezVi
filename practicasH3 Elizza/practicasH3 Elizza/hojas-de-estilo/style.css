@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image:url(/archivos-multimedia/gato\ fondo.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:center;
+    margin:0;
+    }
+nav{
+text-align: center; 
+background-color: rgb(153, 9, 146);
+color: rgb(241, 235, 235);
+padding: 10px;
+}
+main{
+margin-top:100px;
+color: rgb(19, 18, 18);
+}
+details{
+    background-color: rgb(238, 13, 238);
+    padding:15px;
+    width:250px;
+    overflow:hidden;
+    margin-top:5px;
+}
+a{
+    color: rgb(253, 249, 249);
+}
+.linea{
+    width:60%;
+    height:2px;
+    background-color: azure;
+    text-align:center;
+    margin:10px auto;
+}
+footer{
+    background-color: rgb(120, 0, 150);
+    color: aliceblue;
+    padding:15px;
+    width:100%;
+    text-align:center;
+    position:fixed;
+    bottom:0;
+
+
+
+}

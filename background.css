@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+  }
+  
+  nav h1 {
+    background-color: #2d2f4c;
+    padding: 1rem;
+  }
+  
+  section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .position {
+    background-image: url('https://m.media-amazon.com/images/I/71KKWebUS+L._AC_UF894,1000_QL80_.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  
+  .attachment {
+    background-image: url('https://palomaynacho.com/wp-content/uploads/2025/05/Ado-Jpop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position:top;
+  }
+  
+  .repeat {
+    background-image: url('https://lenda.net/wp-content/uploads/2020/04/gato-negro-lenda-min.jpg');
+    background-repeat: repeat¡;
+    background-size: auto;
+    color: #faf9f9;
+  }
+
+footer {
+    background-color: #a806e7;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .icono {
+    background: none;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+
+  .icono i {
+    background: none;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
